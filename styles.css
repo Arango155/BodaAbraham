@@ -1,0 +1,69 @@
+
+            
+        .parallax-mirror {
+            background-image: var(--bg-image); /* Use a CSS variable */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -100;
+            transition: background-image 0.5s ease; /* Smooth transition */
+        }
+
+.contenido {
+    display: flex;               /* Activa flexbox */
+    flex-direction: column;     /* Orienta los elementos en columna */
+    align-items: center;        /* Centra los elementos horizontalmente */
+    justify-content: center;    /* Centra los elementos verticalmente */
+            /* O cualquier altura deseada */
+    text-align: center;         /* Centra el texto */
+}
+
+
+  #map {
+      height: 500px; /* Set desired height */
+      width: 100%; /* Set to full width */
+  }
+
+  .polaroid {
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: auto;
+}
+
+.polaroid img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.slick-slide {
+    margin: 0 10px;
+}
+
+.slick-dots {
+    bottom: -30px;
+}
+
+.slick-arrow {
+    background-color: #ccc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-arrow:hover {
+    background-color: #999;
+}
+
+
